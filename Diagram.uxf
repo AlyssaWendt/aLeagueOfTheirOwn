@@ -1,0 +1,12 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>60</x><y>110</y><w>390</w><h>250</h></coordinates><panel_attributes>Class Detriot Comettes
+--
+- players int
+- wins int
+- lose int
+- draw int
+- coach String
+--
++ getters/setters 
++ playOffPoints() // every win as 5 points, every lose as a -5 points and every draw -2 return the total points for the season 
++ makePlayOff // return a string that says if the team has made it to the play offs based on playoff points
++ ofString()</panel_attributes><additional_attributes></additional_attributes></element></diagram>
